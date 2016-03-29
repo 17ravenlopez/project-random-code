@@ -1,0 +1,132 @@
+
+
+
+
+
+.verticalStripes {	
+	background-color: #FC6C85;
+	background-size: 50px;
+	background-image: -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -moz-linear-gradient(0px 50%, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+	background-image: -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);	
+}
+.VStripe1 {	
+	background-color: #43BFC7;
+	background-size: 50px;
+	background-image: -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -moz-linear-gradient(0px 50%, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+	background-image: -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);	
+}
+.VStripe2 {	
+	background-color: #728C00;
+	background-size: 50px;
+	background-image: -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -moz-linear-gradient(0px 50%, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+	background-image: -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);	
+}
+.VStripe3 {	
+	background-color: #FFE87C;
+	background-size: 50px;
+	background-image: -webkit-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -moz-linear-gradient(0px 50%, transparent 50%, rgba(255, 255, 255, 0.5) 50%);
+	background-image: -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);
+	background-image: -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .5) 50%);	
+}
+.flavortable { 
+	background: rgba(255,255,255,0.75); 
+} 
+.slidetrans {
+	background: rgba(255,255,255,0.75); 
+}
+.trans {
+background: rgba(255,255,255,0.75);
+}
+.saletrans {
+background: rgba(200,255,200,0.90);
+}
+Htrans { 
+background: rgba(200,255,200,0.90);
+
+} 
+table {
+
+border-collapse: collapse;
+border-color:#FC6C85; 
+background-color:#FC6C85; 
+padding-left:; 
+padding-right:; 
+margin-right:;
+margin-left:; 
+}
+.css-slideshow{
+   position: relative;
+   max-width: 450px;
+   height: 360px;
+   margin: 1em auto .5em auto;
+
+}
+.css-slideshow figure{
+   margin: 0;
+   position: absolute;
+}
+.css-slideshow figcaption{
+   position: absolute;
+   top: 0;
+   color: #fff;
+   background: #3D3C3A;
+   font-size: .8em;
+   padding: 8px 12px;
+   opacity: 0;
+   transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+   transition: opacity .5s;
+   opacity: 1;
+}
+.css-slideshow figure{
+   opacity:0;
+}
+ figure:nth-child(1) {
+   animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+   animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+   animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+   animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+   animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+   animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+   animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+   animation: xfade 48s 0s infinite;
+}
+@keyframes xfade{
+   0%{
+      opacity: 1;
+	}
+   10.5% {
+      opacity:1;
+   }
+   12.5%{
+      opacity: 0;
+   }
+   98% {
+      opacity:0;
+   }
+   100% {
+      opacity:1;
+   }
+}
